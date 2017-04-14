@@ -1,0 +1,22 @@
+{
+  "name": "twitter_interface",
+  "version": "1.0.0",
+  "description": "build a twitter interface for treehouse project7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "treehouse",
+    "twitter",
+    "express",
+    "jade"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}

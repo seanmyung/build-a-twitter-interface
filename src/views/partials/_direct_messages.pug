@@ -1,0 +1,13 @@
+.grid-33
+  .app--section
+    ul.app--message--list
+      li
+        h3 Conversation with
+            a  #{data.messages[0].sender.name}
+        ul.app--message--conversation
+          each messages in data.messages
+            li.app--message--me
+              .app--avatar(style='background-image: url(' + messages.sender.profile_image_url + ')')
+                img(src=messages.sender.profile_image_url)
+              p.app--message--text #{messages.text}
+              p.app--message--timestamp #{messages.created_at.slice(0,10)}
