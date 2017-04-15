@@ -27,7 +27,7 @@ access_token_secret
 
 ## Each rendered result must include all of the information seen in the sample layout:
 - [x] tweets -message content -# of retweets -# of likes -date tweeted
-- [x]friends -profile image -real name -screenname
+- [x] friends -profile image -real name -screenname
 - [x] messages -message body -date the message was sent -time the message was sent
 
 ## Make sure the application actually renders your correct Twitter information by running it on your local machine and comparing it to your recent Twitter activity.
