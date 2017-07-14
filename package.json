@@ -2,7 +2,7 @@
   "name": "twitter_interface",
   "version": "1.0.0",
   "description": "build a twitter interface for treehouse project7",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
